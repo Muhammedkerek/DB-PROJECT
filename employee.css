@@ -1,0 +1,31 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    font-family: fantasy;
+
+}
+h3{
+    text-align: center;
+}
+a{
+    margin-bottom: 100px;
+    margin-left: 600px;
+    background:none;
+    color: #ffa260;
+    border: 2px solid;
+    padding:1rem;
+    width: 120px;
+    font-size: 1rem;
+    transition: color 0.25s , border-color 0.25s , box-shadow 0.25s , transform 0.25s;
+    transform: translateY(1.25rem);
+}
+a:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5rem 0.5rem -0.4rem #f1ff5c ;
+    transform: translateY(-0.25rem);
+    cursor: pointer;
+
+}

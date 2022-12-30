@@ -1,0 +1,21 @@
+h1
+{
+    text-align: center;
+    font-family: fantasy;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+body{
+    background-color:slategray;
+}
+a{
+    text-decoration: none;
+    margin-left: 600px;
+    font-size: xx-large;
+}
+a:hover{
+    color:yellowgreen;
+    cursor: col-resize;
+}

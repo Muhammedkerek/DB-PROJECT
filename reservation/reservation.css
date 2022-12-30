@@ -1,0 +1,23 @@
+body{
+    background-image: url(https://static6.depositphotos.com/1020288/558/i/600/depositphotos_5584888-stock-photo-luxury-bar-interior.jpg);
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: burlywood;
+}
+a{
+    margin-left: 500px;
+    font-size: xx-large;
+    text-decoration: none;
+    color: red;
+
+}
+a:hover{
+    color: yellow;
+    cursor: cell;
+}

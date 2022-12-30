@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Hotel Managment</title>
+</head>
+
+<body>
+    <h1>Hotel Managment System</h1>
+    <div class="login">
+        <img class="avatar" src="avatar.png">
+
+        <h1>Login here</h1>
+        <form name="myform"  class="form" method="post">
+
+            <p>User Name</p>
+            <input type="text" name="username" placeholder="Enter User Name" >
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" >
+            <input type="button" name="log" value="Login" onclick="auth()"/>
+          
+            
+
+        </form>
+
+
+
+
+
+    </div>
+    <script>
+        function auth()
+        {
+            var un = document.forms["myform"]["username"].value;
+            var ps = document.forms["myform"]["password"].value;
+            if(un=="manager321@gmail.com" && ps=="12345")
+            {
+                 window.location.href="manager.html";
+                 alert("login succefull");
+              
+            }
+            else if(un=="employee123@gmail.com" && ps=="98765")
+            {
+                window.location.href="us.html";
+                alert("login succefull");
+
+            }
+            else
+            {
+                alert("invalid password");
+                return;
+            }
+          
+          
+        }
+    </script>
+
+</body>
+
+</html>

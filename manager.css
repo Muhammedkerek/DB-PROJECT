@@ -1,0 +1,115 @@
+body
+{
+    background-color: beige;   
+
+}
+h1
+{
+    text-align: center;
+    font-family: fantasy;
+}
+
+nav{
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+  
+}
+.me{
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  ;
+
+}
+a
+{
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: white;
+}
+a:hover
+{
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  color: purple;
+}
+
+
+ul,li {
+display: inline;
+margin: 0;
+padding: 0;
+text-decoration: none
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a
+{
+  text-decoration: none;
+  font-weight: 180%;
+  color: white;
+  
+}
+nav
+{
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+a:hover
+{
+  color: green;
+} */
+/*    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar w/ text</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Navbar text with an inline element
+            </span>
+          </div>
+        </div>
+      </nav>*/
